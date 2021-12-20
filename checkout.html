@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo-1.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Form Checkout Menu Dessert</title>
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+   <!-- MDB CSS -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+   <!-- MDB JAVASCRIPT -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ </head>
+ <body>
+   <!--Main Navigation-->
+   <header>
+     <!-- Navbar -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark d-lg-block" style="z-index: 200;">
+       <div class="container-fluid card-deck">
+         <!-- Navbar logo -->
+         <a class="navbar-brand nav-link kata"  href="index.html">
+           Sprinkle Sweet
+         </a>
+         <!-- Navbar toggle responsive -->
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                   <a class="nav-link" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="Halaman Menu.html" rel="nofollow">Menu</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="About Us.html" >About Us</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="contacts-us.html" >Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html" >Order</a>
+              </li>
+           </ul>
+           <!-- Right links -->
+           <div class="d-flex align-items-center">
+     
+             <a href="form.html" type="button" class="btn btn-warning me-3" style="font-family: Roboto; font-size: 14px;">
+               Login/Signup</a>
+           </div>
+         </div>
+       </div>
+     </nav>
+     <!-- Navbar --> 
+
+     <!--Scroll Up-->
+     <button onclick="topFunction()" id="myBtn" class="myBtn" title="Go to top">
+       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+         <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+       </svg>
+     </button>
+     <!--Scroll Up-->
+      <!--form-->
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="card">
+                    <h3 class="text-center mb-4">Checkout Our Dessert Now!!</h3>
+                    <hr>
+                    <form class="form-card" onsubmit="event.preventDefault()">
+                        <div class="row justify-content-between text-left">
+                          <div class="float-left d-flex flex-row baris">
+                            <label for="name" class="col-sm-2 col-form-label baris">Nama</label>
+                            <input type="text" class="text-area">
+                            </div>
+                            <div class="float-left d-flex flex-row baris">
+                              <label for="name" class="col-sm-2 col-form-label">Email</label>
+                              <input type="Email" class="text-area">
+                              </div>
+                              <div class="float-left d-flex flex-row baris">
+                                <label for="name" class="col-sm-2 col-form-label">Phone</label>
+                                <input type="number" class="text-area">
+                                </div>
+                        <!---Opsi Pengiriman--->
+                        <div class="baris">
+                        <fieldset text-align="left" id="name" class="col-sm-5 col-form-label">
+                            Opsi Pengiriman :
+                            <input type="radio" name="pengiriman" id="Gojek" value="Gojek" class="ms-2">
+                            <label for="Gojek">Gojek</label>
+                            <input type="radio" name="pengiriman" id="Grab" value="Grab" class="ms-2">
+                            <label for="Grab">Grab</label>
+                          </fieldset>
+                          </div>
+                        <!--COURSE-->
+                        <div class="float-left d-flex flex-row baris">
+                        <label for="menudessert" class="float-left d-flex col-sm-2 col-form-label">Pilihan Menu</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected> Dessert </option>
+                          <option id="txt1" onchange="sum();" name="satu" value="35000">Mocha Caramel Chocolate - Rp. 35.000 </option>
+                          <option id="txt11" onchange="sum();" name="satu1" value="33000">Brownie Choco - Rp. 33.000 </option>
+                          <option id="txt12" onchange="sum();" name ="satu2" value="37000">Chocolate Mousse - Rp. 37.000 </option>
+                          <option id="txt13" onchange="sum();" name ="satu3" value="37000">Tiramisu - Rp. 37.000 </option>
+                          <option id="txt14" onchange="sum();" name ="satu4" value="35000">White Chocolate - Rp. 35.000 </option>
+                          <option id="txt15" onchange="sum();" name ="satu5" value="39000">Double Chesee - Rp. 39.000 </option>
+                          <option id="txt16" onchange="sum();" name ="satu6" value="35000">Milk Chocolate - Rp. 35.000 </option>
+                          <option id="txt17" onchange="sum();" name ="satu7" value="38000">Red Velvet - Rp. 38.000 </option>
+                          <option id="txt18" onchange="sum();" name ="satu8" value="37000">Black Cheseecake - Rp. 37.000 </option>
+                      </select>
+                    </div>
+
+                      <!--PEMBAYARAN-->
+                      <div class="float-left d-flex flex-row baris"> 
+                      <label for="jenispembayaran" class="float-left d-flex col-sm-2 col-form-label">Jenis Pembayaran</label>
+                      <select class="col-select col-select-lg mb-1" id="transferbank" name="transferbank">
+                          <option selected>Pilih Pembayaran</option>
+                          <option value ="LinkAja">LinkAja</option>
+                          <option value ="transferbank">Transfer Bank</option>
+                          <option value ="Dana">Dana</option>
+                          <option value ="Ovo">Ovo</option>
+                          <option value ="Gopay">Gopay</option>
+                      </select>
+
+
+                        </div>
+                        <div class="float-left d-flex flex-row baris">
+                        <label for="TotalPesanan" class="col-sm-2 col-form-label">Jumlah Pesanan</label>
+                        <input type="number" id="txt3" onchange="sum();" name="" value="">
+                        </div>
+                        <div class="float-left d-flex flex-row baris">
+                        <label for="TotalPembayaran" class="col-sm-2 col-form-label">Total Pembayaran</label>
+                        <input type="text" id="txt4"   name="hasil" value="">
+                        </div>
+                        <br>
+                        <br>
+                        <!---SUBMIT--->
+                        <div class="row justify-content-end ">
+                            <div class="form-group col-sm-12 kanan"><button type="Order Now" class="btn-block bg-warning ">Order Now</div>
+                        </div>
+                    </form>               
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script>
+      function format2(n, currency) {
+ return currency + " " + n.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1.");
+ }
+
+function sum() {
+ var satu = document.getElementById('txt1').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu) * parseInt(tiga)) ;
+
+ var satu1 = document.getElementById('txt11').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu1) * parseInt(tiga)) ;
+
+ var satu2 = document.getElementById('txt12').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu2) * parseInt(tiga)) ;
+
+ var satu3 = document.getElementById('txt13').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu3) * parseInt(tiga)) ;
+
+ var satu4 = document.getElementById('txt14').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu4) * parseInt(tiga)) ;
+
+ var satu5 = document.getElementById('txt15').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu5) * parseInt(tiga)) ;
+
+ var satu6 = document.getElementById('txt16').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu6) * parseInt(tiga)) ;
+
+ var satu7 = document.getElementById('txt17').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu7) * parseInt(tiga)) ;
+
+ var satu8 = document.getElementById('txt18').value;
+ var tiga = document.getElementById('txt3').value;
+ var result = (parseInt(satu8) * parseInt(tiga)) ;
+
+if (!isNaN(result)) {
+ var hasil = format2(result,"Rp. ");
+ document.getElementById('txt4').value = hasil;
+ }
+ }
+</script>
+<script>
+
+        function validate(val) {
+v1 = document.getElementById("fname");
+v2 = document.getElementById("lname");
+v3 = document.getElementById("email");
+v4 = document.getElementById("mob");
+
+flag1 = true;
+flag2 = true;
+flag3 = true;
+flag4 = true;
+
+
+if(val>=1 || val==0) {
+if(v1.value == "") {
+v1.style.borderColor = "red";
+flag1 = false;
+}
+else {
+v1.style.borderColor = "green";
+flag1 = true;
+}
+}
+
+if(val>=2 || val==0) {
+if(v2.value == "") {
+v2.style.borderColor = "red";
+flag2 = false;
+}
+else {
+v2.style.borderColor = "green";
+flag2 = true;
+}
+}
+if(val>=3 || val==0) {
+if(v3.value == "") {
+v3.style.borderColor = "red";
+flag3 = false;
+}
+else {
+v3.style.borderColor = "green";
+flag3 = true;
+}
+}
+if(val>=4 || val==0) {
+if(v4.value == "") {
+v4.style.borderColor = "red";
+flag4 = false;
+}
+else {
+v4.style.borderColor = "green";
+flag4 = true;
+}
+}
+if(val>=5 || val==0) {
+if(v5.value == "") {
+v5.style.borderColor = "red";
+flag5 = false;
+}
+else {
+v5.style.borderColor = "green";
+flag5 = true;
+}
+}
+if(val>=6 || val==0) {
+if(v6.value == "") {
+v6.style.borderColor = "red";
+flag6 = false;
+}
+else {
+v6.style.borderColor = "green";
+flag6 = true;
+}
+}
+
+flag = flag1 && flag2 && flag3 && flag4 && flag5 && flag6;
+
+return flag;
+}
+</script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/todc-bootstrap/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/todc-bootstrap/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
