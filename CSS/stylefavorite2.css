@@ -1,0 +1,76 @@
+.container{
+    margin-top: 100px;
+}
+.newarrival{
+    background: orange;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight : bold;
+}
+.col-md-5 h2{
+    color: black;
+    font-family: 'Oleo Script';
+    font-size: 50px;
+}
+.col-md-5 h3{
+    color: black;
+    font-family: 'Brush Script MT';
+    font-size: 40px;
+}
+.Stars{
+    height: 20px;
+}
+.price{
+    color : black;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+input{
+    border: px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+.card {
+    margin: 20px 10px;
+}
+.navbar-brand{
+    font-family: 'Brush Script MT';
+}
+.favorite-img__container{
+    position: relative;
+}
+.favorite-img__container::before{
+    content:"";
+    position :absolute;
+    top: -1.5rem;
+    left: 1.7rem;
+    width: 100%;
+    height: 100%;
+    outline: 0.5rem solid var(--mainYellow);
+    z-index: -1;
+    transition: all 1s linear;
+}
+.favorite-img__container:hover:before{
+    top: 0;
+    left: 0;
+}
+.img-fluid{
+    width: 85%;
+    border-radius: 20px;
+}
+h1{
+    color: black;
+    font-size: 50px;
+}
+h4{
+    color: rgb(255, 185, 55);
+    font-family: 'Brush Script MT';
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}

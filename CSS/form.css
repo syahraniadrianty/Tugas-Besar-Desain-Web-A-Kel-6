@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.login {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(131, 131, 131, 0.4)),url("/img/CS1.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 450px;
+    margin: 6px auto;
+    position: relative;
+    background: rgb(255, 243, 222);
+    padding: 4px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.text-box{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family:'Brush Script MT';
+    font-size: 100px;
+}
+
+.separator {
+    margin: 20px 0;
+    border-top: 1px solid #CCCCCC;
+    position: relative;
+}
+
+.separator-text {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    margin-left: -22px;
+    padding: 0px 10px;
+    background: #FFFFFF;
+    color: #8a8a8a;
+}
+
+.socmed-login .socmed-btn {
+    padding: 10px 25px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, pink,pink);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.social-icons {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 1px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, pink, pink);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.chech-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#Login {
+    left: 50px;
+}
+
+#Register {
+    left: 450px;
+}
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+.close {
+	position: absolute;
+	right: 32px;
+	top: 32px;
+	width: 32px;
+	height: 32px;
+	opacity: 0.7;
+    color: white;
+  }
+  .close:hover {
+	opacity: 1;
+  }
+  .close:before, .close:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: rgb(255, 255, 255);
+  }
+  .close:before {
+	transform: rotate(45deg);
+  }
+  .close:after {
+	transform: rotate(-45deg);
+  }  

@@ -1,0 +1,39 @@
+.container{
+    margin-top: 100px;
+}
+.newarrival{
+    background: orange;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight : bold;
+}
+.col-md-5 h2{
+    color: black;
+    font-family: 'Brush Script MT';
+    font-size: 50px;
+    
+}
+.Stars{
+    height: 20px;
+}
+.price{
+    color : black;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+input{
+    border: px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+
+.card {
+    margin: 20px 10px;
+}
+.navbar-brand{
+    font-family: 'Brush Script MT';
+}

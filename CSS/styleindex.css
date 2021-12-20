@@ -1,0 +1,137 @@
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+.container_1{
+  background-color: rgb(253, 236, 205);
+}
+.container_2{
+  background-color: rgb(253, 236, 205);
+}
+.kata{
+  font-family: 'Brush Script MT';
+}
+.size-huruf3{
+  font-size: 25px;
+  
+}
+.size-huruf{
+  font-size: 50px;
+  
+}
+.size-huruf1{
+  font-size: 70px;
+  font-family: 'oleo script';
+}
+.size-huruf2{
+  font-size: 50px;
+  font-family: 'oleo script';
+}
+.carousel-item:nth-child(1) {
+  background-image: url("/img/BG4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("/img/CS1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("../img/caroursel 3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgba(110, 109, 109, 0.274);
+	color: white;
+	cursor: pointer;
+	padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+	border-radius: 4px;
+}
+  
+#myBtn:hover {
+	background-color: #555;
+}
+.myBtnn {
+	display: none;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgba(110, 109, 109, 0.274);
+	color: white;
+	cursor: pointer;
+	padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+	border-radius: 4px;
+}
+  
+.myBtnn:hover {
+	background-color: #555;
+}
+.carousel .carousel-control-prev-icon {
+  /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" fill="none" class="bi bi-chevron-double-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/><path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>');
+  }
+  
+.carousel .carousel-control-next-icon {
+  /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" fill="none" class="bi bi-chevron-double-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/><path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+}
+  
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    /* Use to adjust size of icons */
+    width: 3rem;
+    height: 3rem;
+}
+
+.carticonimg{
+  padding-right: 50px;
+  color: white;
+  
+}
+
+.sayakenyang{
+  padding-top: 100px;
+}
+
+.sayakenyang1{
+  padding-top: 150px;
+}
